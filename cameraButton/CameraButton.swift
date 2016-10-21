@@ -51,8 +51,20 @@ class CameraButton: UIButton {
         super.awakeFromNib()
         
         //lock the size to match the size of the camera button
-        self.addConstraint(NSLayoutConstraint(item: self, attribute:.width, relatedBy:.equal, toItem:nil, attribute:.width, multiplier:1, constant:66.0))
-        self.addConstraint(NSLayoutConstraint(item: self, attribute:.height, relatedBy:.equal, toItem:nil, attribute:.width, multiplier:1, constant:66.0))
+        self.addConstraint(NSLayoutConstraint(item: self,
+                                              attribute:.width,
+                                              relatedBy:.equal,
+                                              toItem:nil,
+                                              attribute:.width,
+                                              multiplier:1,
+                                              constant:66.0))
+        self.addConstraint(NSLayoutConstraint(item: self,
+                                              attribute:.height,
+                                              relatedBy:.equal,
+                                              toItem:nil,
+                                              attribute:.width,
+                                              multiplier:1,
+                                              constant:66.0))
         
         //clear the title
         self.setTitle("", for:UIControlState.normal)
