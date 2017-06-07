@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4EBB40306C31FA819E57A48A28FCB8 /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F3F7FC190A176D5A81289AE645F66A /* CameraButton.swift */; };
+		64D1B247C76D7C140A7D52F3FB4A8887 /* iOS-Camera-Button-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA6EF7D2D0A97FE59A9A2C9A252AAB3 /* iOS-Camera-Button-dummy.m */; };
+		A0FC1B8050593AF44DC295D4E27D01AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BF9541914A11EA099660D80005543705 /* iOS-Camera-Button-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2B0326AC153991D50167B2294B647C /* iOS-Camera-Button-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F4A27E8329AE6D27032670BDD33B9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D93F6B804E57168542F5336CA6875C06 /* Pods-cameraButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D0916ECB9BFCE9BB93E6AE28A46B7FD /* Pods-cameraButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7756F0AAA4942021BDA08DD455CB768 /* Pods-cameraButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D964ABBB97367C387A05E5D2EF85C88F /* Pods-cameraButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		820D02687B1473C885B3522EFE509238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF6DFCB917775E150ACF44D1F354520D;
+			remoteInfo = "iOS-Camera-Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		102D396008EC9E80280E67DC0418FDEE /* Pods-cameraButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraButton.debug.xcconfig"; sourceTree = "<group>"; };
+		223838703F4458A02EC2ACA572EE52CB /* iOS-Camera-Button-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Camera-Button-prefix.pch"; sourceTree = "<group>"; };
+		34492263475E987930F66D55A81F14A2 /* Pods-cameraButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cameraButton.release.xcconfig"; sourceTree = "<group>"; };
+		3D0916ECB9BFCE9BB93E6AE28A46B7FD /* Pods-cameraButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cameraButton-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		748E98A91F0A19B423C2962C5CDD8915 /* Pods-cameraButton-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cameraButton-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FA6EF7D2D0A97FE59A9A2C9A252AAB3 /* iOS-Camera-Button-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Camera-Button-dummy.m"; sourceTree = "<group>"; };
+		895B1F82068784095464B33B9DB88E92 /* Pods-cameraButton-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cameraButton-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97DC63915537054FCF59C3BC5F66C38F /* iOS_Camera_Button.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOS_Camera_Button.framework; path = "iOS-Camera-Button.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F167CA12D26A696FD5F89660359DF7 /* iOS-Camera-Button.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "iOS-Camera-Button.modulemap"; sourceTree = "<group>"; };
+		B40D583CB763EA7D12B6F2137086526B /* iOS-Camera-Button.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Camera-Button.xcconfig"; sourceTree = "<group>"; };
+		B9C2AD3FCB0A4F4E36561EDB47F98B72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9F3F7FC190A176D5A81289AE645F66A /* CameraButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		C0C2C2778863E7E8AD00477EC0AAB8A7 /* Pods-cameraButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-cameraButton.modulemap"; sourceTree = "<group>"; };
+		D4215D1B6C8C645E0D5939196C708A3D /* Pods_cameraButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cameraButton.framework; path = "Pods-cameraButton.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D964ABBB97367C387A05E5D2EF85C88F /* Pods-cameraButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cameraButton-dummy.m"; sourceTree = "<group>"; };
+		DD43F16316E53770F76C37C37F46223E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED2B0326AC153991D50167B2294B647C /* iOS-Camera-Button-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Camera-Button-umbrella.h"; sourceTree = "<group>"; };
+		F1B91589B7D0A0726ABA70E772101041 /* Pods-cameraButton-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cameraButton-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F674E4F34FF9FF1F5917C8AF784CE24C /* Pods-cameraButton-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cameraButton-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D855BCAFFB1BDA6C5CB8BACE016CA0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FC1B8050593AF44DC295D4E27D01AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F147950C6C391A2B52ACE8F10BB46249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F4A27E8329AE6D27032670BDD33B9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A886B7757306DC408F44A290F25CD5 /* iOS-Camera-Button */ = {
+			isa = PBXGroup;
+			children = (
+				F4A762FA3E01D94060A322082FEF5088 /* Classes */,
+				4DF963752B74EF8B595B426E6FED67EE /* Support Files */,
+			);
+			name = "iOS-Camera-Button";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3AF8DCDA3991A3A38CBBDB5E9B9F3692 /* Pods-cameraButton */ = {
+			isa = PBXGroup;
+			children = (
+				DD43F16316E53770F76C37C37F46223E /* Info.plist */,
+				C0C2C2778863E7E8AD00477EC0AAB8A7 /* Pods-cameraButton.modulemap */,
+				F1B91589B7D0A0726ABA70E772101041 /* Pods-cameraButton-acknowledgements.markdown */,
+				748E98A91F0A19B423C2962C5CDD8915 /* Pods-cameraButton-acknowledgements.plist */,
+				D964ABBB97367C387A05E5D2EF85C88F /* Pods-cameraButton-dummy.m */,
+				895B1F82068784095464B33B9DB88E92 /* Pods-cameraButton-frameworks.sh */,
+				F674E4F34FF9FF1F5917C8AF784CE24C /* Pods-cameraButton-resources.sh */,
+				3D0916ECB9BFCE9BB93E6AE28A46B7FD /* Pods-cameraButton-umbrella.h */,
+				102D396008EC9E80280E67DC0418FDEE /* Pods-cameraButton.debug.xcconfig */,
+				34492263475E987930F66D55A81F14A2 /* Pods-cameraButton.release.xcconfig */,
+			);
+			name = "Pods-cameraButton";
+			path = "Target Support Files/Pods-cameraButton";
+			sourceTree = "<group>";
+		};
+		4DF963752B74EF8B595B426E6FED67EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C2AD3FCB0A4F4E36561EDB47F98B72 /* Info.plist */,
+				A5F167CA12D26A696FD5F89660359DF7 /* iOS-Camera-Button.modulemap */,
+				B40D583CB763EA7D12B6F2137086526B /* iOS-Camera-Button.xcconfig */,
+				7FA6EF7D2D0A97FE59A9A2C9A252AAB3 /* iOS-Camera-Button-dummy.m */,
+				223838703F4458A02EC2ACA572EE52CB /* iOS-Camera-Button-prefix.pch */,
+				ED2B0326AC153991D50167B2294B647C /* iOS-Camera-Button-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "sample/Pods/Target Support Files/iOS-Camera-Button";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EF973B021E0FE72AE171298400D0C3EE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F6D3430A496D02AC85DC004D0A3238E9 /* Products */,
+				DE6754163326375A492EC7666C42A10F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE6754163326375A492EC7666C42A10F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8DCDA3991A3A38CBBDB5E9B9F3692 /* Pods-cameraButton */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF973B021E0FE72AE171298400D0C3EE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19A886B7757306DC408F44A290F25CD5 /* iOS-Camera-Button */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F4A762FA3E01D94060A322082FEF5088 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B9F3F7FC190A176D5A81289AE645F66A /* CameraButton.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F6D3430A496D02AC85DC004D0A3238E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97DC63915537054FCF59C3BC5F66C38F /* iOS_Camera_Button.framework */,
+				D4215D1B6C8C645E0D5939196C708A3D /* Pods_cameraButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48DE85A4B19B81B4C9C0F9E8430713B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9541914A11EA099660D80005543705 /* iOS-Camera-Button-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C6A2709150DF075AA5E0C9E3F80A07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93F6B804E57168542F5336CA6875C06 /* Pods-cameraButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53931414E7B0D34B5B678992D3A467C4 /* Pods-cameraButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108422EE873FC0356EA886CDEF73FD45 /* Build configuration list for PBXNativeTarget "Pods-cameraButton" */;
+			buildPhases = (
+				12810EDDCE6C41A702AA27265F7FD36C /* Sources */,
+				D855BCAFFB1BDA6C5CB8BACE016CA0FD /* Frameworks */,
+				C2C6A2709150DF075AA5E0C9E3F80A07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73FCD2AAA323144DB91A57535113451F /* PBXTargetDependency */,
+			);
+			name = "Pods-cameraButton";
+			productName = "Pods-cameraButton";
+			productReference = D4215D1B6C8C645E0D5939196C708A3D /* Pods_cameraButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF6DFCB917775E150ACF44D1F354520D /* iOS-Camera-Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF377053C23DDFE898BD387330CD1B5 /* Build configuration list for PBXNativeTarget "iOS-Camera-Button" */;
+			buildPhases = (
+				114A6D98A19D997377A8CB8611B30936 /* Sources */,
+				F147950C6C391A2B52ACE8F10BB46249 /* Frameworks */,
+				48DE85A4B19B81B4C9C0F9E8430713B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Camera-Button";
+			productName = "iOS-Camera-Button";
+			productReference = 97DC63915537054FCF59C3BC5F66C38F /* iOS_Camera_Button.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F6D3430A496D02AC85DC004D0A3238E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF6DFCB917775E150ACF44D1F354520D /* iOS-Camera-Button */,
+				53931414E7B0D34B5B678992D3A467C4 /* Pods-cameraButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		114A6D98A19D997377A8CB8611B30936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4EBB40306C31FA819E57A48A28FCB8 /* CameraButton.swift in Sources */,
+				64D1B247C76D7C140A7D52F3FB4A8887 /* iOS-Camera-Button-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12810EDDCE6C41A702AA27265F7FD36C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7756F0AAA4942021BDA08DD455CB768 /* Pods-cameraButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73FCD2AAA323144DB91A57535113451F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-Camera-Button";
+			target = AF6DFCB917775E150ACF44D1F354520D /* iOS-Camera-Button */;
+			targetProxy = 820D02687B1473C885B3522EFE509238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F15BD3A7D9B1444199441C900313EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34492263475E987930F66D55A81F14A2 /* Pods-cameraButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cameraButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cameraButton/Pods-cameraButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cameraButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C08534DBB07711571810539E9B9B9AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40D583CB763EA7D12B6F2137086526B /* iOS-Camera-Button.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Camera-Button/iOS-Camera-Button-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-Camera-Button/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-Camera-Button/iOS-Camera-Button.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iOS_Camera_Button;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45ABADFFC63B09F53CD27D5CBF0DD8C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 102D396008EC9E80280E67DC0418FDEE /* Pods-cameraButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cameraButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cameraButton/Pods-cameraButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cameraButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FD3C308E1FF2B6C127426676CBBBEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6019147392E8923D124D0744E61B49EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40D583CB763EA7D12B6F2137086526B /* iOS-Camera-Button.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Camera-Button/iOS-Camera-Button-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOS-Camera-Button/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iOS-Camera-Button/iOS-Camera-Button.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iOS_Camera_Button;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC964E5A03B37AD63A0C3163280AD597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108422EE873FC0356EA886CDEF73FD45 /* Build configuration list for PBXNativeTarget "Pods-cameraButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45ABADFFC63B09F53CD27D5CBF0DD8C3 /* Debug */,
+				03F15BD3A7D9B1444199441C900313EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC964E5A03B37AD63A0C3163280AD597 /* Debug */,
+				5FD3C308E1FF2B6C127426676CBBBEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF377053C23DDFE898BD387330CD1B5 /* Build configuration list for PBXNativeTarget "iOS-Camera-Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C08534DBB07711571810539E9B9B9AD /* Debug */,
+				6019147392E8923D124D0744E61B49EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

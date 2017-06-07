@@ -1,0 +1,6 @@
+framework module iOS_Camera_Button {
+  umbrella header "iOS-Camera-Button-umbrella.h"
+
+  export *
+  module * { export * }
+}

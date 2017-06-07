@@ -12,7 +12,7 @@
 		1C6BF59E1C98488700B074BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF59C1C98488700B074BB /* Main.storyboard */; };
 		1C6BF5A01C98488700B074BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF59F1C98488700B074BB /* Assets.xcassets */; };
 		1C6BF5A31C98488700B074BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6BF5A11C98488700B074BB /* LaunchScreen.storyboard */; };
-		1C6BF5AB1C98489100B074BB /* CameraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6BF5AA1C98489100B074BB /* CameraButton.swift */; };
+		4A89239C87EA8F16E43D3985 /* Pods_cameraButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09386308877449395FDABD2 /* Pods_cameraButton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,9 @@
 		1C6BF59F1C98488700B074BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C6BF5A21C98488700B074BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C6BF5A41C98488700B074BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C6BF5AA1C98489100B074BB /* CameraButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraButton.swift; sourceTree = "<group>"; };
+		375CC753588FB23D672B9D5D /* Pods-cameraButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cameraButton/Pods-cameraButton.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9CBA28445F156F1AD0DD9C /* Pods-cameraButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-cameraButton/Pods-cameraButton.release.xcconfig"; sourceTree = "<group>"; };
+		F09386308877449395FDABD2 /* Pods_cameraButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cameraButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A89239C87EA8F16E43D3985 /* Pods_cameraButton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04FF95B6F81B03A651EF18D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375CC753588FB23D672B9D5D /* Pods-cameraButton.debug.xcconfig */,
+				8D9CBA28445F156F1AD0DD9C /* Pods-cameraButton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1C6BF58C1C98488700B074BB = {
 			isa = PBXGroup;
 			children = (
 				1C6BF5971C98488700B074BB /* cameraButton */,
 				1C6BF5961C98488700B074BB /* Products */,
+				04FF95B6F81B03A651EF18D7 /* Pods */,
+				E8D463081F23F29B9919D5A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +70,6 @@
 		1C6BF5971C98488700B074BB /* cameraButton */ = {
 			isa = PBXGroup;
 			children = (
-				1C6BF5AA1C98489100B074BB /* CameraButton.swift */,
 				1C6BF5981C98488700B074BB /* AppDelegate.swift */,
 				1C6BF59A1C98488700B074BB /* ViewController.swift */,
 				1C6BF59C1C98488700B074BB /* Main.storyboard */,
@@ -67,6 +80,14 @@
 			path = cameraButton;
 			sourceTree = "<group>";
 		};
+		E8D463081F23F29B9919D5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F09386308877449395FDABD2 /* Pods_cameraButton.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C6BF5A71C98488700B074BB /* Build configuration list for PBXNativeTarget "cameraButton" */;
 			buildPhases = (
+				1D39B6E6013849EAFB17CF39 /* [CP] Check Pods Manifest.lock */,
 				1C6BF5911C98488700B074BB /* Sources */,
 				1C6BF5921C98488700B074BB /* Frameworks */,
 				1C6BF5931C98488700B074BB /* Resources */,
+				6446D2DB2B7334161DD39638 /* [CP] Embed Pods Frameworks */,
+				6ADD675F8D05D58B4EA71521 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,13 +158,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D39B6E6013849EAFB17CF39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6446D2DB2B7334161DD39638 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cameraButton/Pods-cameraButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ADD675F8D05D58B4EA71521 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cameraButton/Pods-cameraButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C6BF5911C98488700B074BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C6BF59B1C98488700B074BB /* ViewController.swift in Sources */,
-				1C6BF5AB1C98489100B074BB /* CameraButton.swift in Sources */,
 				1C6BF5991C98488700B074BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +328,7 @@
 		};
 		1C6BF5A81C98488700B074BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 375CC753588FB23D672B9D5D /* Pods-cameraButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -270,6 +342,7 @@
 		};
 		1C6BF5A91C98488700B074BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9CBA28445F156F1AD0DD9C /* Pods-cameraButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";

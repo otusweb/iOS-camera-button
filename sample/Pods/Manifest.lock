@@ -1,0 +1,16 @@
+PODS:
+  - iOS-Camera-Button (0.0.1)
+
+DEPENDENCIES:
+  - iOS-Camera-Button (from `../`)
+
+EXTERNAL SOURCES:
+  iOS-Camera-Button:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOS-Camera-Button: aaf8b2fdc00b3ebb698d42fdcee2a847bbb36187
+
+PODFILE CHECKSUM: f471f434b143dbe9b8751dfcaf38bb36b575b31c
+
+COCOAPODS: 1.1.1
