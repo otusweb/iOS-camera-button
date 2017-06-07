@@ -6,7 +6,7 @@ A button that behave the same way as the video camera button in the iOS camera
 
 # installation
 ## Using cocoapod
-`pod 'iOS-Camera-Button', :git => 'https://github.com/otusweb/iOS-camera-button.git'`
+`pod 'iOS-Camera-Button'
 
 ## Manually
 copy cameraButton.swift to your project
