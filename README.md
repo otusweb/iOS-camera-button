@@ -1,6 +1,9 @@
 # iOS-camera-button
 A button that behave the same way as the video camera button in the iOS camera
 
+# Preview
+![Button preview](https://github.com/otusweb/iOS-camera-button/blob/master/camerabutton.gif?raw=true)
+
 # installation
 ## Using cocoapod
 `pod 'iOS-Camera-Button', :git => 'https://github.com/otusweb/iOS-camera-button.git'`
